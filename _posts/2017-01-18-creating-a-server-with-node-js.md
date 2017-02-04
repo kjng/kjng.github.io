@@ -32,8 +32,6 @@ server.listen(8080, '127.0.0.1');
 
 In this first example, we are using Node&#8217;s built-in &#8216;HTTP&#8217; module. We create the server instance with the method, &#8216;createServer&#8217;, which takes a callback function invoked with request and response objects. To actually have the server listening to requests, we use the method &#8216;listen&#8217; with our specified port and IP address.
 
-* * *
-
 <pre>var express = require('express');
 var app = express();
 app.use(function(request, response) {
