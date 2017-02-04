@@ -1,6 +1,6 @@
 ---
 id: 65
-title: 'Beginner's Guide to React: Part 1'
+title: "Beginner's Guide to React: Part 1"
 date: 2017-01-09T00:24:06+00:00
 author: pianistkevinjang@gmail.com
 layout: post
