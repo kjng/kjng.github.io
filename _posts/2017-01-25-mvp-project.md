@@ -17,7 +17,7 @@ Yesterday, I completed my MVP project at Hack Reactor Remote. The goal of the pr
 
 For my MVP, I decided I wanted to build something League of Legends related. While brainstorming, I initially wanted to make a strategic whiteboard app that used the League of Legends map as a background:
 
-![](https://i1.wp.com/ddragon.leagueoflegends.com/cdn/6.8.1/img/map/map11.png?resize=219%2C219)
+<img src="https://i1.wp.com/ddragon.leagueoflegends.com/cdn/6.8.1/img/map/map11.png?resize=219%2C219" />
 
 However, this was before I realized that the MVP project was only 2 days long. So I scoped down.
 
@@ -43,7 +43,7 @@ So I landed on a League of Legends timeline-like app where users could add a cha
 
 On the first day, I quickly set up a Node server using express, that had a /champions API route. The /champions route responds to GET and POST requests. On a GET request, the server queries MongoDB for all the pre-existing champions on the board and returns all entries. On a POST, the user would send JSON consisting of a champion name, and short title/description. This would add a new document containing the name, title, and image for the champion (from the Riot static data server). By the end of the first day, I had something that looked like this:
 
-![First draft of MVP](https://i.imgsafe.org/7b78e140b5.png=250x)
+<img src="https://i.imgsafe.org/7b78e140b5.png" style="max-width:300px"/>
 
 While this met what I perceived as the minimum requirements for the MVP project, I wanted to do more. I planned for a better UI, note functionality, and multiple Angular views.
 
@@ -81,7 +81,7 @@ After experimenting and perusing Bootstrap documentation, I styled my app a bit 
 
 Final product image:
 
-![](https://i.imgsafe.org/7b78edfae6.png=500x)
+<img src="https://i.imgsafe.org/7b78edfae6.png" style="max-width:400px"/>
 
 
 ## Closing Thoughts
