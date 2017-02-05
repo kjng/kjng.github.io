@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 # An Intro to Esoteric Programming Languages
 
