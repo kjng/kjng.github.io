@@ -31,7 +31,7 @@ I think coders enjoy creating and using esoteric languages because they enjoy on
 
 ### Prelude/Fugue
 
-![Fugue code]({{site.baseurl}}/_posts/fugue.PNG)
+![Fugue code sheet music image]({{site.baseurl}}/https://i.imgsafe.org/7b7a9c23e3.png)
 
 This fugue code is the visual representation of the Prelude language. The intervals between notes as well as the lines represent these characters of Prelude: 
 
