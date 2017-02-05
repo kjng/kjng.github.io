@@ -81,7 +81,7 @@ After experimenting and perusing Bootstrap documentation, I styled my app a bit 
 
 Final product image:
 
-![](https://i.imgsafe.org/7b78edfae6.png =250x)
+![](https://i.imgsafe.org/7b78edfae6.png =500x)
 
 
 ## Closing Thoughts
