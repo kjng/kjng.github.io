@@ -1,22 +1,23 @@
 ---
 id: 83
 title: MVP Project
-date: 2017-01-25T12:39:58+00:00
+date: {}
 author: pianistkevinjang@gmail.com
 layout: post
-guid: http://blog.kevinjang.com/?p=83
+guid: 'http://blog.kevinjang.com/?p=83'
 permalink: /2017/01/25/mvp-project/
 categories:
   - General
   - Projects
+published: true
 ---
 Yesterday, I completed my MVP project at Hack Reactor Remote. The goal of the project was to create a &#8216;minimum viable product&#8217;, or a web app with a very limited scope. This was done over the course of two days!<!--more-->
 
 ### LOL Whiteboard
 
-For my MVP, I decided I wanted to build something League of Legends related. While brainstorming, I initially wanted to make a strategic whiteboard app that used the League of Legends map as a background:<figure style="width: 219px" class="wp-caption alignnone">
+For my MVP, I decided I wanted to build something League of Legends related. While brainstorming, I initially wanted to make a strategic whiteboard app that used the League of Legends map as a background:
 
-<img class="" src="https://i1.wp.com/ddragon.leagueoflegends.com/cdn/6.8.1/img/map/map11.png?resize=219%2C219" alt="map of summoner's rift from league of legends" data-recalc-dims="1" />
+![](https://i1.wp.com/ddragon.leagueoflegends.com/cdn/6.8.1/img/map/map11.png?resize=219%2C219)
 
 However, this was before I realized that the MVP project was only 2 days long. So I scoped down.
 
@@ -40,9 +41,9 @@ With a League of Legends champion viewer, I estimated that I would barely be int
 
 So I landed on a League of Legends timeline-like app where users could add a champion to the board and add notes under each champion. This allowed me to explore a bit more with MongoDB, creating new Documents for each champion added with an array of notes.
 
-On the first day, I quickly set up a Node server using express, that had a /champions API route. The /champions route responds to GET and POST requests. On a GET request, the server queries MongoDB for all the pre-existing champions on the board and returns all entries. On a POST, the user would send JSON consisting of a champion name, and short title/description. This would add a new document containing the name, title, and image for the champion (from the Riot static data server). By the end of the first day, I had something that looked like this:<figure id="attachment_85" style="width: 240px" class="wp-caption alignnone">
+On the first day, I quickly set up a Node server using express, that had a /champions API route. The /champions route responds to GET and POST requests. On a GET request, the server queries MongoDB for all the pre-existing champions on the board and returns all entries. On a POST, the user would send JSON consisting of a champion name, and short title/description. This would add a new document containing the name, title, and image for the champion (from the Riot static data server). By the end of the first day, I had something that looked like this:
 
-<img class="size-medium wp-image-85" src="https://i1.wp.com/blog.kevinjang.com/wp-content/uploads/2017/01/Screen-Shot-2017-01-25-at-8.55.45-AM-240x300.png?fit=240%2C300" alt="app at the end of the first day" srcset="https://i1.wp.com/blog.kevinjang.com/wp-content/uploads/2017/01/Screen-Shot-2017-01-25-at-8.55.45-AM.png?resize=240%2C300 240w, https://i1.wp.com/blog.kevinjang.com/wp-content/uploads/2017/01/Screen-Shot-2017-01-25-at-8.55.45-AM.png?w=397 397w" sizes="(max-width: 240px) 100vw, 240px" data-recalc-dims="1" />
+![First draft of MVP](https://i.imgsafe.org/7b78e140b5.png=250x)
 
 While this met what I perceived as the minimum requirements for the MVP project, I wanted to do more. I planned for a better UI, note functionality, and multiple Angular views.
 
@@ -78,9 +79,9 @@ Previously, I wasn&#8217;t using ng-view, making my app a literal single page ap
 
 After experimenting and perusing Bootstrap documentation, I styled my app a bit and I was done!
 
-Final product image:<figure id="attachment_86" style="width: 296px" class="wp-caption alignnone">
+Final product image:
 
-<img class=" wp-image-86" src="https://i0.wp.com/blog.kevinjang.com/wp-content/uploads/2017/01/Screen-Shot-2017-01-25-at-9.34.43-AM.png?resize=296%2C235" alt="tracker page for my app" srcset="https://i0.wp.com/blog.kevinjang.com/wp-content/uploads/2017/01/Screen-Shot-2017-01-25-at-9.34.43-AM.png?resize=300%2C239 300w, https://i0.wp.com/blog.kevinjang.com/wp-content/uploads/2017/01/Screen-Shot-2017-01-25-at-9.34.43-AM.png?resize=768%2C612 768w, https://i0.wp.com/blog.kevinjang.com/wp-content/uploads/2017/01/Screen-Shot-2017-01-25-at-9.34.43-AM.png?resize=1024%2C817 1024w, https://i0.wp.com/blog.kevinjang.com/wp-content/uploads/2017/01/Screen-Shot-2017-01-25-at-9.34.43-AM.png?w=1200 1200w" sizes="(max-width: 296px) 100vw, 296px" data-recalc-dims="1" />
+![](https://i.imgsafe.org/7b78edfae6.png =250x)
 
 
 ## Closing Thoughts
