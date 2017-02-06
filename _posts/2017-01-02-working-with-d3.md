@@ -1,7 +1,7 @@
 ---
 id: 58
 title: Working with D3
-date: {}
+date: 2017-01-02T00:23:50.000Z
 author: pianistkevinjang@gmail.com
 layout: post
 guid: 'http://blog.kevinjang.com/?p=58'
