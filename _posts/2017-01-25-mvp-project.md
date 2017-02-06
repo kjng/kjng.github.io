@@ -1,7 +1,7 @@
 ---
 id: 83
 title: MVP Project
-date: {}
+date: 2017-01-25T12:39:58.000Z
 author: pianistkevinjang@gmail.com
 layout: post
 guid: 'http://blog.kevinjang.com/?p=83'
