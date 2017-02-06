@@ -17,7 +17,7 @@ title: Kevin Jang - Software Engineer
 email: pianistkevinjang@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   My experience at Hack Reactor Remote. This site is a blog and a directory for the various software engineering projects I've worked on. For my piano related content, visit http://kevinjang.com.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kjng.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: kjng
 
