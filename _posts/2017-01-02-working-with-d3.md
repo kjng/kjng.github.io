@@ -15,7 +15,7 @@ Over Hack Reactor break, I had time to learn the basics of D3, a JavaScript libr
 
 The game in question was an asteroids clone. To simplify the game, though, I left out the ability to shoot and destroy asteroids so the game was more of an &#8220;asteroid avoid&#8221; game. Now, games aren&#8217;t the traditional implementation of the D3 library but the simplified task made the use of D3 easier for a newbie. Through making the game, I learned to use D3 selections (e.g. select, selectAll, and enter) and some of the data binding and updating methods (data, enter). Although I didn&#8217;t use the _exit_ selection in my game, I learned that it&#8217;s an important part in a visualization to remove elements from the DOM (e.g. filtering out elements in a graph). Here&#8217;s a snapshot of my game:
 
-<img src="https://i.imgsafe.org/7b78d22981.png" style="max-width:400px" />
+![asteroidavoid.png]({{site.baseurl}}/images/asteroidavoid.png)
 
 The game is made up of 4 main parts: the HTML, CSS, JavaScript, and D3 library file (of course). The HTML provides a skeleton of divs for the game area and scoreboard, the CSS handles simple styling of the gameboard and scoreboard (font families, background colors), and the JS handles the rest. Working with D3 to make my game made me realize the similarity in using CSS selectors like in JavaScript. In my .js using D3, I was able to create DOM nodes for the player (red circle) and enemies (green circles) while also updating the scoreboard and a collision checking function. The game can be easily tweaked in difficulty by modifying a gameOptions global variables containing keys for number of enemies as well as the rate in which the enemies move across the screen.
 
