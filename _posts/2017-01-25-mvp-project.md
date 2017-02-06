@@ -43,7 +43,7 @@ So I landed on a League of Legends timeline-like app where users could add a cha
 
 On the first day, I quickly set up a Node server using express, that had a /champions API route. The /champions route responds to GET and POST requests. On a GET request, the server queries MongoDB for all the pre-existing champions on the board and returns all entries. On a POST, the user would send JSON consisting of a champion name, and short title/description. This would add a new document containing the name, title, and image for the champion (from the Riot static data server). By the end of the first day, I had something that looked like this:
 
-<img src="https://i.imgsafe.org/7b78e140b5.png" style="max-width:300px"/>
+![First day site]({{site.baseurl}}/images/Screen-Shot-2017-01-25-at-8.55.45-AM.png)
 
 While this met what I perceived as the minimum requirements for the MVP project, I wanted to do more. I planned for a better UI, note functionality, and multiple Angular views.
 
@@ -81,8 +81,7 @@ After experimenting and perusing Bootstrap documentation, I styled my app a bit 
 
 Final product image:
 
-<img src="https://i.imgsafe.org/7b78edfae6.png" style="max-width:400px"/>
-
+![Final site image]({{site.baseurl}}/images/Screen-Shot-2017-01-25-at-9.34.43-AM.png)
 
 ## Closing Thoughts
 
