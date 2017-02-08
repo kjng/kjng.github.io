@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 # Writing a Software Engineering Resume
 
