@@ -1,6 +1,6 @@
 ---
 id: 83
-title: MVP Project
+title: Solo Project
 date: 2017-01-25T12:39:58.000Z
 author: pianistkevinjang@gmail.com
 layout: post
@@ -11,11 +11,11 @@ categories:
   - Projects
 published: true
 ---
-Yesterday, I completed my MVP project at Hack Reactor Remote. The goal of the project was to create a &#8216;minimum viable product&#8217;, or a web app with a very limited scope. This was done over the course of two days!<!--more-->
+Yesterday, I completed my first project at Hack Reactor Remote. The goal of the project was to create a &#8216;minimum viable product&#8217;, or a web app with a very limited scope. This was done over the course of two days!<!--more-->
 
 ### LOL Whiteboard
 
-For my MVP, I decided I wanted to build something League of Legends related. While brainstorming, I initially wanted to make a strategic whiteboard app that used the League of Legends map as a background:
+For my project, I decided I wanted to build something League of Legends (LOL) related. While brainstorming, I initially wanted to make a strategic whiteboard app that used the League of Legends map as a background:
 
 <img src="https://i1.wp.com/ddragon.leagueoflegends.com/cdn/6.8.1/img/map/map11.png?resize=219%2C219" />
 
