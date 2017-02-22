@@ -11,7 +11,7 @@ Let's get started.
 
 As a React Native app isn't run in the web browser like React is, remote JS debugging is accessed using cmd-D.
 
-![iOS React Native developer tools menu]({{site.baseurl}}/_drafts/Simulator Screen Shot Feb 21, 2017, 7.28.24 PM.png)
+![iOS React Native developer tools menu]({{site.baseurl}}/images/react_native_devtools.png)
 
 After pressing 'Debug JS Remotely', your browser will open and you can view the console (**⌘⌥J**) for debugging! All your React Native console.log()'s will appear here.
 
@@ -25,6 +25,6 @@ This comes with an important **caveat**: If you're working on a new component fu
 
 ### The Inspector
 
-![iOS React Native inspector]({{site.baseurl}}/_drafts/Simulator Screen Shot Feb 21, 2017, 7.40.01 PM.png)
+![iOS React Native inspector]({{site.baseurl}}/images/react_native_inspector.png)
 
 Finally, the last dev tool of React Native that is often used is the Inspector. This can be thought of as the mobile version of the Chrome browser's inspect. Unfortunately, you won't be able to see the exact lines of code here but it provides great CSS-like attribute descriptions and box-model border highlighting. This is great if you're just getting started with flexbox, the styling method of React Native.
