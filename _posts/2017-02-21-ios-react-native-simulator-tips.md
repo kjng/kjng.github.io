@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Tips and Tricks for React Native iOS Simulator Developing
 
