@@ -67,3 +67,15 @@ The React Native CLI sets up everything to get an app running in XCode. After th
 ```
 react-native run-ios
 ```
+
+The React Native CLI sets up everything to run the default app including installing the npm modules and the xCode build files. To run your application, simply type:
+
+```
+react-native run-ios
+```
+
+Depending on your computer processing power, this may take a while. While the default project builds, you'll see a terminal window pop up with a dependency package manager. This should stay open while developing and will rebuild your project everytime you reload your application in the simulator.
+
+#### Initialize Firebase ####
+
+After the default 'Welcome to React Native' application opens, now it's time to install Firebase. As I've mentioned above, you can't use the iOS version...
