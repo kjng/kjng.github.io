@@ -23,7 +23,7 @@ github_username: kjng
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: cayman
 gems:
   - jekyll-feed
 exclude:
