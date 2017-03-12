@@ -78,4 +78,17 @@ Depending on your computer processing power, this may take a while. While the de
 
 #### Initialize Firebase ####
 
-After the default 'Welcome to React Native' application opens, now it's time to install Firebase. As I've mentioned above, you can't use the iOS version...
+After the default 'Welcome to React Native' application opens, now it's time to install Firebase. As I've mentioned above, you can't use the iOS version documentation and should reference the web app/JavaScript side. Things to note are that since there aren't any script tags in React Native, we'll need to use the npm package that Firebase offers.
+
+To start, import Firebase from npm:
+```
+npm install --save firebase
+
+// In your project:
+import * as firebase from 'firebase';
+var app = firebase.initializeApp({ /* Copy your config from the firebase console here */ });
+```
+
+After this, pick and choose what features from the large number that Firebase offers! Most of the services require you to make a their own specific connections to Firebase. For more details, visit the npm page [here](https://www.npmjs.com/package/firebase)
+
+The ones I've used are Firebase Authentication and Database. Stay tuned for more detailed explanations/guides on those two!
