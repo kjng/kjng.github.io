@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Many Ways of Solving (Toy) Problems
 
