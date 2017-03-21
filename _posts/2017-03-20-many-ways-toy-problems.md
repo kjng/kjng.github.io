@@ -10,7 +10,7 @@ This post talks more in the perspective of a 'just-starting' coder.
 ### Toy Problems Represented
 
 Most beginners view toy problems like this:
-![Perceived single-line toy problem timeline]({{site.baseurl}}/_posts/perceived.jpg)
+![Perceived single-line toy problem timeline]({{site.baseurl}}/images/perceived.jpg)
 
 I think many coders wish it were this simple, myself included. We could then build up our skills in a linear fashion and become masters someday.
 
@@ -18,7 +18,7 @@ However, this isn't the reality. There are many solutions to the same one. Grant
 
 _This_ is more inline with reality:
 
-![Reality of solving toy problems, complicated line diagram]({{site.baseurl}}/_posts/reality.jpg)
+![Reality of solving toy problems, complicated line diagram]({{site.baseurl}}/images/reality.jpg)
 
 What is represented here?
 
