@@ -17,7 +17,7 @@ Now, the few things I don't like about Ember. Since it never was and isn't the "
 
 ### Why I don't recommend it
 
-Going along the lines of Ember ajax requests, I don't particularly love the constraints on JSON data when using JSONAPIAdapter and this is the one thing I like to configure. When building a RESTful API with Node hooked up to a database, I like structuring my returned data as I see fit. Although I can see the benefits of convention in that you know which properties to access with the (JSON API standard)[http://jsonapi.org/format/#document-top-level], the Ember adapters don't let you break this mold.
+Going along the lines of Ember ajax requests, I don't particularly love the constraints on JSON data when using JSONAPIAdapter and this is the one thing I like to configure. When building a RESTful API with Node hooked up to a database, I like structuring my returned data as I see fit. Although I can see the benefits of convention in that you know which properties to access with the [JSON API standard](http://jsonapi.org/format/#document-top-level), the Ember adapters don't let you break this mold.
 
 ### Not hard and fast
 
