@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Giving JavaScript Technical Interviews
 
