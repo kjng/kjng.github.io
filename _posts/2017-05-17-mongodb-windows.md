@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Setting up MongoDB in Windows
 
