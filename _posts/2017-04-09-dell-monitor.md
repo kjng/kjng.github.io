@@ -45,13 +45,11 @@ Since my ambient lighting is moderately low, I opted to set my monitor brightnes
 
 In order to achieve 1ms response time, I adjusted the response time to fast.
 
-## Windows Settings
+### Windows Settings
 
 After these tweaks, I had to adjust the gamma to be way higher (inverse on slider). In the Windows color calibration settings, this was pretty easy, just pulling down the slider almost to the bottom.
 
-![dell_response]({{site.baseurl}}/images/dell/dell_response.jpg)
-
-## G-sync Setup
+### G-sync Setup
 
 I did have an issue with G-sync not showing up in the Nvidia control panel. Even after updating to the latest version (I think I was one behind), I wasn't seeing the corresponding menus:
 
@@ -60,11 +58,11 @@ I did have an issue with G-sync not showing up in the Nvidia control panel. Even
 
 What got it to work was turning on global V-sync and restarting my computer. However, after I was forced to reset the CMOS on my motherboard (due to an unrelated issue), G-sync appeared as normal. Go figure.
 
-## MacOS Hackintosh Side of Things
+### MacOS Hackintosh Side of Things
 
 On my MacOS drive, it was actually quite simple to do color calibration to get rid of the default green cast. When opening up the Displays window from System Preferences, all I had to do was go to the Color tab and hold Option while clicking Calibrate. The MacOS calibration application is great.
 
-## Closing
+### Closing
 
 I think this monitor is a great buy if you have a recent 9 or 10 series Nvidia card and want G-sync. Although there is some setup involved (but all TN monitors probably do), it's a great performing monitor and the color isn't bad after calibration.
 
